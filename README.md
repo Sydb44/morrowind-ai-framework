@@ -37,7 +37,6 @@ The framework enables NPCs to:
 - C++ compiler with C++17 support
 - CMake 3.12 or later
 - Boost libraries (for WebSocket client)
-- Git (for version control)
 - API keys for chosen LLM provider(s)
 
 ## Installation
