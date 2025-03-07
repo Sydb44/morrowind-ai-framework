@@ -1,0 +1,393 @@
+{
+  "great_houses": [
+    {
+      "id": "house_hlaalu",
+      "name": "House Hlaalu",
+      "description": "House Hlaalu is one of the five Great Houses of Morrowind. It is a primarily political and mercantile house that has embraced Imperial ways and Imperial trade. House Hlaalu has significant power and influence in the Balmora region and maintains close ties with the Imperial administration.",
+      "values": "Trade, adaptability, pragmatism, wealth, Imperial relations",
+      "ranks": [
+        {"id": 0, "name": "Hireling", "description": "The lowest rank, new members with no standing"},
+        {"id": 1, "name": "Retainer", "description": "Members who have proven their basic loyalty and usefulness"},
+        {"id": 2, "name": "Oathman", "description": "Full members who have sworn formal oaths to the House"},
+        {"id": 3, "name": "Lawman", "description": "Respected members who enforce House laws and policies"},
+        {"id": 4, "name": "House Cousin", "description": "Trusted members with family-like connections"},
+        {"id": 5, "name": "House Kinsman", "description": "High-ranking members considered part of the House's extended family"},
+        {"id": 6, "name": "Councilman", "description": "Members of the ruling council who make House policy"},
+        {"id": 7, "name": "Grandmaster", "description": "The leader of the House, currently Vedam Dren"}
+      ],
+      "headquarters": "Hlaalu Council Manor, Balmora",
+      "territories": ["Balmora", "Caldera", "Suran", "Vivec (Hlaalu Canton)"],
+      "notable_members": [
+        {"name": "Vedam Dren", "rank": "Grandmaster", "location": "Dren Plantation"},
+        {"name": "Crassius Curio", "rank": "Councilman", "location": "Curio Manor, Vivec"},
+        {"name": "Dram Bero", "rank": "Councilman", "location": "Vivec"},
+        {"name": "Yngling Half-Troll", "rank": "Councilman", "location": "Vivec"},
+        {"name": "Nevena Ules", "rank": "Councilman", "location": "Balmora"},
+        {"name": "Nileno Dorvayn", "rank": "House Kinsman", "location": "Balmora"}
+      ],
+      "relations": {
+        "house_redoran": "Competitive and sometimes hostile. Hlaalu sees Redoran as backwards and overly traditional.",
+        "house_telvanni": "Distrustful. Hlaalu views Telvanni as dangerously independent and unpredictable.",
+        "imperial_legion": "Friendly. Hlaalu has embraced Imperial rule and benefits from Imperial trade.",
+        "imperial_cult": "Friendly. Many Hlaalu members have adopted Imperial religious practices.",
+        "tribunal_temple": "Respectful but distant. Hlaalu's Imperial ties create some tension with the Temple."
+      }
+    },
+    {
+      "id": "house_redoran",
+      "name": "House Redoran",
+      "description": "House Redoran is one of the five Great Houses of Morrowind. It is a martial house that emphasizes honor, duty, and traditional Dunmer values. House Redoran controls much of northwestern Vvardenfell and is responsible for much of Morrowind's defense.",
+      "values": "Honor, duty, tradition, warrior prowess, piety",
+      "ranks": [
+        {"id": 0, "name": "Hireling", "description": "The lowest rank, new members with no standing"},
+        {"id": 1, "name": "Retainer", "description": "Members who have proven their basic loyalty and usefulness"},
+        {"id": 2, "name": "Oathman", "description": "Full members who have sworn formal oaths to the House"},
+        {"id": 3, "name": "Lawman", "description": "Respected members who enforce House laws and policies"},
+        {"id": 4, "name": "House Cousin", "description": "Trusted members with family-like connections"},
+        {"id": 5, "name": "House Kinsman", "description": "High-ranking members considered part of the House's extended family"},
+        {"id": 6, "name": "Councilman", "description": "Members of the ruling council who make House policy"},
+        {"id": 7, "name": "Archmaster", "description": "The leader of the House, currently Bolvyn Venim"}
+      ],
+      "headquarters": "Redoran Council Hall, Ald'ruhn",
+      "territories": ["Ald'ruhn", "Maar Gan", "Gnisis", "Vivec (Redoran Canton)"],
+      "notable_members": [
+        {"name": "Bolvyn Venim", "rank": "Archmaster", "location": "Ald'ruhn"},
+        {"name": "Athyn Sarethi", "rank": "Councilman", "location": "Ald'ruhn"},
+        {"name": "Miner Arobar", "rank": "Councilman", "location": "Ald'ruhn"},
+        {"name": "Hlaren Ramoran", "rank": "Councilman", "location": "Ald'ruhn"},
+        {"name": "Garisa Llethri", "rank": "Councilman", "location": "Ald'ruhn"}
+      ],
+      "relations": {
+        "house_hlaalu": "Distrustful and competitive. Redoran sees Hlaalu as corrupt and too friendly with outsiders.",
+        "house_telvanni": "Hostile. Redoran views Telvanni as amoral and dangerous.",
+        "imperial_legion": "Cautiously cooperative. Redoran accepts Imperial rule but maintains its own traditions.",
+        "imperial_cult": "Tolerant but distant. Redoran remains devoted to the Tribunal.",
+        "tribunal_temple": "Very close. Redoran is deeply pious and supports the Temple in most matters."
+      }
+    },
+    {
+      "id": "house_telvanni",
+      "name": "House Telvanni",
+      "description": "House Telvanni is one of the five Great Houses of Morrowind. It is a house of powerful and often ancient wizards who value magical ability and individual freedom above all else. House Telvanni controls much of eastern Vvardenfell and operates largely independently from the rest of Morrowind's power structures.",
+      "values": "Magical power, independence, self-reliance, knowledge, ambition",
+      "ranks": [
+        {"id": 0, "name": "Hireling", "description": "The lowest rank, new members with no standing"},
+        {"id": 1, "name": "Retainer", "description": "Members who have proven their basic loyalty and usefulness"},
+        {"id": 2, "name": "Oathman", "description": "Full members who have sworn formal oaths to the House"},
+        {"id": 3, "name": "Lawman", "description": "Respected members who enforce House laws (such as they are)"},
+        {"id": 4, "name": "Mouth", "description": "Personal representatives of the Telvanni wizards"},
+        {"id": 5, "name": "Spellwright", "description": "Accomplished mages with significant magical ability"},
+        {"id": 6, "name": "Master", "description": "Powerful wizards who control their own towers"},
+        {"id": 7, "name": "Magister", "description": "The most powerful wizards who form the ruling council"}
+      ],
+      "headquarters": "No central headquarters; each Master rules from their own tower",
+      "territories": ["Sadrith Mora", "Tel Aruhn", "Tel Branora", "Tel Mora", "Tel Vos", "Tel Fyr"],
+      "notable_members": [
+        {"name": "Gothren", "rank": "Magister", "location": "Tel Aruhn"},
+        {"name": "Neloth", "rank": "Magister", "location": "Tel Naga, Sadrith Mora"},
+        {"name": "Dratha", "rank": "Magister", "location": "Tel Mora"},
+        {"name": "Therana", "rank": "Magister", "location": "Tel Branora"},
+        {"name": "Aryon", "rank": "Master", "location": "Tel Vos"},
+        {"name": "Baladas Demnevanni", "rank": "Master", "location": "Gnisis"},
+        {"name": "Divayth Fyr", "rank": "Master", "location": "Tel Fyr"}
+      ],
+      "relations": {
+        "house_hlaalu": "Dismissive. Telvanni sees Hlaalu as weak merchants with no real power.",
+        "house_redoran": "Contemptuous. Telvanni views Redoran as backwards warriors bound by pointless traditions.",
+        "imperial_legion": "Hostile or indifferent. Telvanni largely ignores Imperial authority when possible.",
+        "imperial_cult": "Indifferent. Telvanni has little interest in religious matters.",
+        "tribunal_temple": "Distant. Telvanni wizards often have their own views on the Tribunal."
+      }
+    }
+  ],
+  "guilds": [
+    {
+      "id": "fighters_guild",
+      "name": "Fighters Guild",
+      "description": "The Fighters Guild is an Imperial institution that provides martial services to the public, including monster hunting, escort services, and other mercenary work. The guild has branches throughout Vvardenfell and serves as a legitimate alternative to the less reputable Camonna Tong.",
+      "values": "Combat skill, honor in contracts, loyalty to the guild, service to the Empire",
+      "ranks": [
+        {"id": 0, "name": "Associate", "description": "New members on probation"},
+        {"id": 1, "name": "Apprentice", "description": "Beginning members learning the basics"},
+        {"id": 2, "name": "Journeyman", "description": "Regular members who can take standard contracts"},
+        {"id": 3, "name": "Swordsman", "description": "Experienced members with proven combat skills"},
+        {"id": 4, "name": "Protector", "description": "Veteran members who may supervise others"},
+        {"id": 5, "name": "Defender", "description": "Senior members who represent the guild's interests"},
+        {"id": 6, "name": "Warder", "description": "High-ranking members who help set guild policy"},
+        {"id": 7, "name": "Champion", "description": "Elite members who handle the most dangerous contracts"},
+        {"id": 8, "name": "Master", "description": "Local guild hall leaders"},
+        {"id": 9, "name": "Guildmaster", "description": "The leader of the entire Fighters Guild in Vvardenfell"}
+      ],
+      "headquarters": "Fighters Guild, Balmora",
+      "territories": ["Balmora", "Ald'ruhn", "Sadrith Mora", "Vivec"],
+      "notable_members": [
+        {"name": "Sjoring Hard-Heart", "rank": "Guildmaster", "location": "Vivec"},
+        {"name": "Eydis Fire-Eye", "rank": "Master", "location": "Balmora"},
+        {"name": "Percius Mercius", "rank": "Champion", "location": "Ald'ruhn"}
+      ],
+      "relations": {
+        "house_hlaalu": "Friendly. The Fighters Guild has good relations with House Hlaalu.",
+        "house_redoran": "Respectful. Redoran warriors sometimes join the Fighters Guild.",
+        "thieves_guild": "Hostile. The Fighters Guild is being manipulated against the Thieves Guild.",
+        "imperial_legion": "Allied. Both serve Imperial interests in Morrowind.",
+        "camonna_tong": "Complicated. The current leadership has ties to the Camonna Tong."
+      }
+    },
+    {
+      "id": "mages_guild",
+      "name": "Mages Guild",
+      "description": "The Mages Guild is an Imperial institution dedicated to the study and practice of magic. It provides magical services to the public, including spellmaking, enchanting, and teleportation. The guild has branches throughout Vvardenfell and serves as a center for magical research and education.",
+      "values": "Magical knowledge, research, education, service to the Empire",
+      "ranks": [
+        {"id": 0, "name": "Associate", "description": "New members on probation"},
+        {"id": 1, "name": "Apprentice", "description": "Beginning members learning basic magic"},
+        {"id": 2, "name": "Journeyman", "description": "Regular members with solid magical abilities"},
+        {"id": 3, "name": "Evoker", "description": "Experienced mages who can handle complex spells"},
+        {"id": 4, "name": "Conjurer", "description": "Accomplished mages with specialized knowledge"},
+        {"id": 5, "name": "Magician", "description": "Senior mages who may teach others"},
+        {"id": 6, "name": "Warlock", "description": "High-ranking mages who help set guild policy"},
+        {"id": 7, "name": "Wizard", "description": "Elite mages who conduct important research"},
+        {"id": 8, "name": "Master Wizard", "description": "Local guild hall leaders"},
+        {"id": 9, "name": "Arch-Mage", "description": "The leader of the entire Mages Guild in Vvardenfell"}
+      ],
+      "headquarters": "Mages Guild, Vivec",
+      "territories": ["Balmora", "Ald'ruhn", "Sadrith Mora", "Vivec", "Caldera"],
+      "notable_members": [
+        {"name": "Trebonius Artorius", "rank": "Arch-Mage", "location": "Vivec"},
+        {"name": "Ranis Athrys", "rank": "Master Wizard", "location": "Balmora"},
+        {"name": "Edwinna Elbert", "rank": "Master Wizard", "location": "Ald'ruhn"},
+        {"name": "Skink-in-Tree's-Shade", "rank": "Master Wizard", "location": "Sadrith Mora"},
+        {"name": "Folms Mirel", "rank": "Master Wizard", "location": "Caldera"}
+      ],
+      "relations": {
+        "house_telvanni": "Hostile. The Mages Guild competes with House Telvanni for magical dominance.",
+        "imperial_cult": "Friendly. Both are Imperial institutions.",
+        "tribunal_temple": "Cautious. The Temple is suspicious of 'foreign' magic.",
+        "imperial_legion": "Allied. Both serve Imperial interests in Morrowind.",
+        "house_hlaalu": "Friendly. The Mages Guild has good relations with House Hlaalu."
+      }
+    },
+    {
+      "id": "thieves_guild",
+      "name": "Thieves Guild",
+      "description": "The Thieves Guild is an illegal organization that operates throughout Vvardenfell, engaging in theft, smuggling, and other illicit activities. Despite its criminal nature, the guild follows a code that prohibits killing and often positions itself as a more honorable alternative to the violent Camonna Tong.",
+      "values": "Profit, stealth, loyalty to the guild, honor among thieves",
+      "ranks": [
+        {"id": 0, "name": "Toad", "description": "New members on probation"},
+        {"id": 1, "name": "Wet Ear", "description": "Beginning thieves learning the basics"},
+        {"id": 2, "name": "Footpad", "description": "Regular members who can handle simple jobs"},
+        {"id": 3, "name": "Blackcap", "description": "Experienced thieves with proven skills"},
+        {"id": 4, "name": "Operative", "description": "Skilled thieves who may lead small operations"},
+        {"id": 5, "name": "Bandit", "description": "Senior thieves who represent the guild's interests"},
+        {"id": 6, "name": "Captain", "description": "High-ranking thieves who help set guild policy"},
+        {"id": 7, "name": "Ringleader", "description": "Elite thieves who handle the most complex heists"},
+        {"id": 8, "name": "Master Thief", "description": "Local guild leaders"},
+        {"id": 9, "name": "Guildmaster", "description": "The leader of the entire Thieves Guild in Vvardenfell"}
+      ],
+      "headquarters": "South Wall Cornerclub, Balmora",
+      "territories": ["Balmora", "Ald'ruhn", "Sadrith Mora", "Vivec"],
+      "notable_members": [
+        {"name": "Gentleman Jim Stacey", "rank": "Guildmaster", "location": "Vivec, Foreign Quarter"},
+        {"name": "Habasi", "rank": "Master Thief", "location": "Balmora"},
+        {"name": "Aengoth the Jeweler", "rank": "Master Thief", "location": "Ald'ruhn"},
+        {"name": "Big Helende", "rank": "Master Thief", "location": "Sadrith Mora"}
+      ],
+      "relations": {
+        "fighters_guild": "Hostile. The Fighters Guild is being used against the Thieves Guild.",
+        "camonna_tong": "Very hostile. The Camonna Tong wants to eliminate the Thieves Guild.",
+        "imperial_legion": "Hostile. The Legion enforces the law against the guild.",
+        "house_hlaalu": "Complicated. Some Hlaalu members secretly support the guild.",
+        "imperial_cult": "Neutral. The guild avoids targeting the Cult specifically."
+      }
+    }
+  ],
+  "religious": [
+    {
+      "id": "tribunal_temple",
+      "name": "Tribunal Temple",
+      "description": "The Tribunal Temple is the native religion of Morrowind, centered around the worship of the three living gods: Almalexia, Sotha Sil, and Vivec, collectively known as the Tribunal or ALMSIVI. The Temple is a powerful institution that influences nearly all aspects of Dunmer society and culture.",
+      "values": "Faith in the Tribunal, tradition, Dunmer cultural identity, charity, justice",
+      "ranks": [
+        {"id": 0, "name": "Layman", "description": "Ordinary worshippers with no formal position"},
+        {"id": 1, "name": "Novice", "description": "Beginning Temple members in training"},
+        {"id": 2, "name": "Initiate", "description": "Members who have completed basic training"},
+        {"id": 3, "name": "Acolyte", "description": "Regular Temple clergy who perform daily services"},
+        {"id": 4, "name": "Adept", "description": "Experienced clergy with specialized knowledge"},
+        {"id": 5, "name": "Curate", "description": "Senior clergy who may oversee smaller shrines"},
+        {"id": 6, "name": "Disciple", "description": "Devoted followers who have proven their faith"},
+        {"id": 7, "name": "Oracle", "description": "High-ranking clergy with prophetic abilities"},
+        {"id": 8, "name": "Patriarch/Matriarch", "description": "Temple leaders who oversee major temples"},
+        {"id": 9, "name": "Archcanon", "description": "The highest Temple authority under the Tribunal"}
+      ],
+      "headquarters": "Temple Canton, Vivec",
+      "territories": ["Vivec", "Balmora", "Ald'ruhn", "Ghostgate", "Molag Mar"],
+      "notable_members": [
+        {"name": "Tholer Saryoni", "rank": "Archcanon", "location": "Vivec"},
+        {"name": "Endryn Llethan", "rank": "Patriarch", "location": "Ald'ruhn"},
+        {"name": "Felisi Venim", "rank": "Matriarch", "location": "Balmora"}
+      ],
+      "relations": {
+        "imperial_cult": "Tense but tolerant. The Temple resents Imperial religious influence.",
+        "house_redoran": "Very close. Redoran is deeply pious and supports the Temple.",
+        "house_indoril": "Extremely close. House Indoril has traditional ties to the Temple.",
+        "ashlanders": "Hostile. The Temple considers the Ashlanders heretics.",
+        "sixth_house": "Extremely hostile. The Temple views the Sixth House as the ultimate blasphemy."
+      }
+    },
+    {
+      "id": "imperial_cult",
+      "name": "Imperial Cult",
+      "description": "The Imperial Cult is the official religion of the Septim Empire, centered around the worship of the Nine Divines. In Morrowind, the Cult serves the spiritual needs of Imperial citizens and converts while respecting the dominant position of the Tribunal Temple among the native Dunmer.",
+      "values": "Faith in the Nine Divines, charity, service to the Empire, tolerance",
+      "ranks": [
+        {"id": 0, "name": "Layman", "description": "Ordinary worshippers with no formal position"},
+        {"id": 1, "name": "Novice", "description": "Beginning Cult members in training"},
+        {"id": 2, "name": "Initiate", "description": "Members who have completed basic training"},
+        {"id": 3, "name": "Acolyte", "description": "Regular Cult clergy who perform daily services"},
+        {"id": 4, "name": "Adept", "description": "Experienced clergy with specialized knowledge"},
+        {"id": 5, "name": "Disciple", "description": "Senior clergy who may oversee smaller shrines"},
+        {"id": 6, "name": "Oracle", "description": "High-ranking clergy with prophetic abilities"},
+        {"id": 7, "name": "Invoker", "description": "Elite clergy who can call upon divine power"},
+        {"id": 8, "name": "Primate", "description": "Cult leaders who oversee major chapels"},
+        {"id": 9, "name": "Divine", "description": "The highest Cult authority in a province"}
+      ],
+      "headquarters": "Imperial Chapels, Ebonheart",
+      "territories": ["Ebonheart", "Gnisis", "Moonmoth Legion Fort", "Buckmoth Legion Fort", "Wolverine Hall"],
+      "notable_members": [
+        {"name": "Lalatia Varian", "rank": "Primate", "location": "Ebonheart"},
+        {"name": "Synnolian Tunifus", "rank": "Primate", "location": "Ebonheart"},
+        {"name": "Iulus Truptor", "rank": "Oracle", "location": "Ebonheart"}
+      ],
+      "relations": {
+        "tribunal_temple": "Cautious but respectful. The Cult avoids antagonizing the Temple.",
+        "imperial_legion": "Very close. The Legion protects and supports the Cult.",
+        "house_hlaalu": "Friendly. Many Hlaalu members have adopted Imperial religious practices.",
+        "house_redoran": "Distant but respectful. Redoran remains devoted to the Tribunal.",
+        "house_telvanni": "Indifferent. Telvanni has little interest in religious matters."
+      }
+    }
+  ],
+  "imperial": [
+    {
+      "id": "imperial_legion",
+      "name": "Imperial Legion",
+      "description": "The Imperial Legion is the military arm of the Septim Empire, maintaining Imperial law and order in Morrowind. The Legion has several forts throughout Vvardenfell and works to protect Imperial interests, combat smuggling, and defend against various threats.",
+      "values": "Duty to the Empire, discipline, honor, courage, law and order",
+      "ranks": [
+        {"id": 0, "name": "Recruit", "description": "New soldiers in basic training"},
+        {"id": 1, "name": "Spearman", "description": "Basic infantry soldiers"},
+        {"id": 2, "name": "Trooper", "description": "Regular soldiers with combat experience"},
+        {"id": 3, "name": "Agent", "description": "Specialized soldiers who may work undercover"},
+        {"id": 4, "name": "Champion", "description": "Elite soldiers with exceptional combat skills"},
+        {"id": 5, "name": "Knight Errant", "description": "Junior officers who lead small units"},
+        {"id": 6, "name": "Knight Bachelor", "description": "Officers who may command larger units"},
+        {"id": 7, "name": "Knight Protector", "description": "Senior officers with significant authority"},
+        {"id": 8, "name": "Knight of the Imperial Dragon", "description": "High-ranking officers who command forts"},
+        {"id": 9, "name": "General", "description": "The highest Legion authority in a province"}
+      ],
+      "headquarters": "Moonmoth Legion Fort, near Balmora",
+      "territories": ["Moonmoth Legion Fort", "Buckmoth Legion Fort", "Fort Darius", "Wolverine Hall", "Ebonheart"],
+      "notable_members": [
+        {"name": "Varus Vantinius", "rank": "Knight of the Imperial Dragon", "location": "Ebonheart"},
+        {"name": "Larrius Varro", "rank": "Knight Protector", "location": "Moonmoth Legion Fort"},
+        {"name": "Radd Hard-Heart", "rank": "Knight Bachelor", "location": "Buckmoth Legion Fort"},
+        {"name": "Imsin the Dreamer", "rank": "Knight Bachelor", "location": "Fort Darius, Gnisis"}
+      ],
+      "relations": {
+        "imperial_cult": "Very close. The Legion protects and supports the Cult.",
+        "house_hlaalu": "Friendly. Hlaalu has embraced Imperial rule and benefits from Imperial trade.",
+        "house_redoran": "Cautiously cooperative. Redoran accepts Imperial rule but maintains its own traditions.",
+        "house_telvanni": "Tense. Telvanni largely ignores Imperial authority when possible.",
+        "camonna_tong": "Hostile. The Legion combats Camonna Tong criminal activities."
+      }
+    },
+    {
+      "id": "east_empire_company",
+      "name": "East Empire Company",
+      "description": "The East Empire Company is an Imperial chartered company that has a monopoly on certain goods, especially ebony mining in Vvardenfell. The company operates the large ebony mine in Caldera and has offices in several Imperial settlements.",
+      "values": "Profit, Imperial economic interests, trade, resource extraction",
+      "ranks": [
+        {"id": 0, "name": "Laborer", "description": "Basic workers with no authority"},
+        {"id": 1, "name": "Clerk", "description": "Administrative staff handling paperwork"},
+        {"id": 2, "name": "Factor", "description": "Company representatives who handle local business"},
+        {"id": 3, "name": "Agent", "description": "Employees who negotiate deals and investigate issues"},
+        {"id": 4, "name": "Negotiator", "description": "Senior representatives who handle important contracts"},
+        {"id": 5, "name": "Treasurer", "description": "Officials who manage company finances"},
+        {"id": 6, "name": "Director", "description": "Executives who oversee regional operations"},
+        {"id": 7, "name": "Governor", "description": "High-ranking officials who control major territories"}
+      ],
+      "headquarters": "Ebonheart",
+      "territories": ["Caldera", "Ebonheart", "Seyda Neen"],
+      "notable_members": [
+        {"name": "Odral Helvi", "rank": "Factor", "location": "Caldera"},
+        {"name": "Stlennius Vibato", "rank": "Director", "location": "Ebonheart"}
+      ],
+      "relations": {
+        "imperial_legion": "Allied. The Legion protects Company interests.",
+        "house_hlaalu": "Business partners. Hlaalu and the Company have many joint ventures.",
+        "camonna_tong": "Complicated. Some Company officials have ties to the Camonna Tong.",
+        "thieves_guild": "Hostile. The Company is a frequent target for the Thieves Guild.",
+        "house_redoran": "Neutral. Redoran has little involvement with the Company."
+      }
+    }
+  ],
+  "criminal": [
+    {
+      "id": "camonna_tong",
+      "name": "Camonna Tong",
+      "description": "The Camonna Tong is a native Dunmer criminal syndicate that controls much of the illegal activity in Morrowind. Unlike the Thieves Guild, the Camonna Tong is violently xenophobic and opposes Imperial influence in Morrowind. They are involved in smuggling, extortion, assassination, and the slave trade.",
+      "values": "Dunmer supremacy, profit, power, tradition, family loyalty",
+      "ranks": [
+        {"id": 0, "name": "Associate", "description": "Non-members who work with the organization"},
+        {"id": 1, "name": "Thug", "description": "Low-level enforcers and muscle"},
+        {"id": 2, "name": "Operative", "description": "Regular members who handle day-to-day criminal activities"},
+        {"id": 3, "name": "Knucklebones", "description": "Experienced enforcers who handle serious violence"},
+        {"id": 4, "name": "Wise", "description": "Senior members who manage local operations"},
+        {"id": 5, "name": "Boss", "description": "Leaders who control criminal activities in a town or region"},
+        {"id": 6, "name": "Kingpin", "description": "High-ranking leaders who set organization policy"},
+        {"id": 7, "name": "Godfather", "description": "The supreme leader of the entire organization"}
+      ],
+      "headquarters": "Hlaalu Council Manor (secretly), Balmora",
+      "territories": ["Balmora", "Suran", "Vivec", "Hla Oad"],
+      "notable_members": [
+        {"name": "Orvas Dren", "rank": "Godfather", "location": "Dren Plantation"},
+        {"name": "Duram gro-Bol", "rank": "Boss", "location": "Balmora"},
+        {"name": "Ralos Oran", "rank": "Boss", "location": "Suran"}
+      ],
+      "relations": {
+        "thieves_guild": "Extremely hostile. The Camonna Tong wants to eliminate the Thieves Guild.",
+        "house_hlaalu": "Infiltrated. The Camonna Tong has significant influence within House Hlaalu.",
+        "imperial_legion": "Hostile. The Legion combats Camonna Tong criminal activities.",
+        "fighters_guild": "Manipulative. The current leadership has ties to the Camonna Tong.",
+        "tribunal_temple": "Complicated. The Camonna Tong presents itself as protecting Dunmer traditions."
+      }
+    },
+    {
+      "id": "sixth_house",
+      "name": "Sixth House",
+      "description": "The Sixth House, or House Dagoth, is a mysterious and dangerous cult led by Dagoth Ur, a former friend of the Tribunal who now dwells beneath Red Mountain. The Sixth House spreads its influence through dreams, corrupting artifacts, and twisted cultists known as ash creatures. Their ultimate goal is to drive the outlanders from Morrowind and overthrow the Tribunal.",
+      "values": "Loyalty to Dagoth Ur, Dunmer purity, opposition to the Tribunal, freedom from Imperial rule",
+      "ranks": [
+        {"id": 0, "name": "Dreamer", "description": "Those influenced by Dagoth Ur's dreams but not yet physically transformed"},
+        {"id": 1, "name": "Ash Slave", "description": "Cultists who have begun physical transformation"},
+        {"id": 2, "name": "Ash Ghoul", "description": "More advanced cultists with significant physical changes"},
+        {"id": 3, "name": "Ash Zombie", "description": "Heavily transformed cultists with limited intelligence"},
+        {"id": 4, "name": "Ascended Sleeper", "description": "Highly evolved servants of Dagoth Ur with powerful abilities"},
+        {"id": 5, "name": "Ash Vampire", "description": "Dagoth Ur's closest lieutenants, his ash vampire 'brothers'"}
+      ],
+      "headquarters": "Red Mountain, Dagoth Ur",
+      "territories": ["Red Mountain", "Various hidden bases throughout Vvardenfell"],
+      "notable_members": [
+        {"name": "Dagoth Ur", "rank": "Lord", "location": "Red Mountain"},
+        {"name": "Dagoth Gares", "rank": "Ash Vampire", "location": "Ilunibi Caverns"}
+      ],
+      "relations": {
+        "tribunal_temple": "Extremely hostile. The Sixth House seeks to overthrow the Tribunal.",
+        "imperial_legion": "Hostile. The Sixth House opposes all Imperial presence in Morrowind.",
+        "house_hlaalu": "Hostile. The Sixth House views Hlaalu as Imperial collaborators.",
+        "house_redoran": "Hostile. The Sixth House sees Redoran as Tribunal loyalists.",
+        "house_telvanni": "Hostile, though some Telvanni might be curious about Sixth House magic."
+      }
+    }
+  ]
+}

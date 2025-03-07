@@ -1,0 +1,49 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 8080,
+    "log_level": "info"
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-3.5-turbo",
+    "temperature": 0.7,
+    "max_tokens": 500,
+    "top_p": 1.0,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "local_model_path": "models/llama-7b"
+  },
+  "voice": {
+    "enabled": false,
+    "provider": "elevenlabs",
+    "voice_id": "default",
+    "output_dir": "voice-output"
+  },
+  "memory": {
+    "enabled": true,
+    "max_conversations": 10,
+    "max_messages_per_conversation": 20,
+    "storage_dir": "memories"
+  },
+  "context": {
+    "include_factions": true,
+    "include_locations": true,
+    "include_general_lore": true,
+    "max_context_length": 4000
+  },
+  "logging": {
+    "conversation_logs": true,
+    "log_dir": "logs"
+  },
+  "npc_profiles": {
+    "dir": "npc-profiles"
+  },
+  "static_data": {
+    "dir": "static-data",
+    "factions_file": "factions.json",
+    "locations_file": "locations.json",
+    "lore_file": "lore.json",
+    "templates_dir": "templates"
+  }
+}

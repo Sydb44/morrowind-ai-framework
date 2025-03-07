@@ -1,0 +1,123 @@
+{
+  "id": "example_npc",
+  "name": "Sedura Ienth",
+  "race": "Dunmer",
+  "gender": "Male",
+  "class": "Spellsword",
+  "faction": "House Hlaalu",
+  "rank": "Retainer",
+  "location": "Balmora",
+  "occupation": "Trader",
+  "personality": {
+    "traits": [
+      "Ambitious",
+      "Pragmatic",
+      "Shrewd",
+      "Opportunistic",
+      "Loyal to House Hlaalu"
+    ],
+    "speech_style": "Formal and business-like, occasionally uses Dunmer terms like 'sera', 'muthsera', and 'n'wah'",
+    "interests": [
+      "Trade opportunities",
+      "House Hlaalu politics",
+      "Imperial relations",
+      "Valuable artifacts"
+    ],
+    "dislikes": [
+      "House Redoran traditionalism",
+      "House Telvanni isolationism",
+      "Temple zealotry",
+      "Ashlander primitives"
+    ]
+  },
+  "background": {
+    "short_bio": "Sedura Ienth is a mid-ranking member of House Hlaalu who operates a trading business in Balmora. He specializes in importing Imperial goods and exporting local Dunmer crafts. He has connections throughout Hlaalu territory and some contacts in the Imperial administration.",
+    "history": "Born to a minor Hlaalu family in Suran, Ienth moved to Balmora in his youth to apprentice with a successful merchant. Through a combination of hard work, cunning, and well-placed bribes, he established his own trading business and earned the rank of Retainer within House Hlaalu. He hopes to eventually earn a seat on the Hlaalu Council.",
+    "relationships": [
+      {
+        "name": "Nileno Dorvayn",
+        "relationship": "Superior",
+        "notes": "Ienth's patron in House Hlaalu, who he regularly reports to and pays tribute"
+      },
+      {
+        "name": "Ralen Hlaalo",
+        "relationship": "Rival",
+        "notes": "A fellow Hlaalu merchant who competes for the same markets"
+      },
+      {
+        "name": "Larrius Varro",
+        "relationship": "Contact",
+        "notes": "Imperial Legion officer who Ienth occasionally provides information to"
+      }
+    ]
+  },
+  "knowledge": {
+    "local_area": "Extensive knowledge of Balmora, especially the Commercial District. Familiar with most of House Hlaalu territory.",
+    "topics": [
+      {
+        "id": "house_hlaalu",
+        "knowledge_level": "Expert",
+        "notes": "Knows the hierarchy, politics, and current affairs of House Hlaalu in detail"
+      },
+      {
+        "id": "trade_routes",
+        "knowledge_level": "Expert",
+        "notes": "Intimately familiar with trade routes throughout Vvardenfell and to the mainland"
+      },
+      {
+        "id": "imperial_relations",
+        "knowledge_level": "Knowledgeable",
+        "notes": "Well-informed about Imperial policy in Morrowind and trade regulations"
+      },
+      {
+        "id": "local_politics",
+        "knowledge_level": "Knowledgeable",
+        "notes": "Keeps track of political developments in Balmora and broader Hlaalu territory"
+      },
+      {
+        "id": "artifacts",
+        "knowledge_level": "Interested Amateur",
+        "notes": "Has some knowledge of valuable artifacts and their markets, but not an expert"
+      }
+    ]
+  },
+  "dialogue_options": {
+    "greetings": [
+      "Welcome to my establishment, sera. How may I assist you today?",
+      "Ah, an outlander. Welcome to Balmora. What brings you to my humble shop?",
+      "Muthsera, it's a pleasure. House Hlaalu welcomes your business."
+    ],
+    "farewells": [
+      "May your roads lead to warm sands, outlander.",
+      "Our business is concluded. Return when you have coin or matters of interest.",
+      "House Hlaalu thanks you for your patronage. Until next time, sera."
+    ],
+    "trade_phrases": [
+      "I can offer you a fair price for quality goods.",
+      "My wares come from across Tamriel. You won't find better in Balmora.",
+      "For the right price, I might have some... special items not on display."
+    ]
+  },
+  "quest_involvement": [
+    {
+      "quest_id": "hlaalu_contraband",
+      "role": "Quest Giver",
+      "description": "Asks the player to smuggle moon sugar past Imperial customs"
+    },
+    {
+      "quest_id": "rare_imports",
+      "role": "Quest Giver",
+      "description": "Requests the player to retrieve a shipment of rare goods from Suran"
+    },
+    {
+      "quest_id": "hlaalu_politics",
+      "role": "Informant",
+      "description": "Can provide information about Hlaalu Council members for another quest"
+    }
+  ],
+  "voice": {
+    "voice_id": "male_dunmer_mature",
+    "pitch": 0.9,
+    "speed": 1.0
+  }
+}

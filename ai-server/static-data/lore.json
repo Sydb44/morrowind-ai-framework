@@ -1,0 +1,489 @@
+{
+  "history": [
+    {
+      "id": "first_era",
+      "name": "First Era",
+      "description": "The First Era began with the founding of the Camoran Dynasty in Valenwood and saw the rise and fall of several major empires, including the First Empire of the Nords and the Alessian Empire. For Morrowind, this era was marked by the War of the First Council, which led to the disappearance of the Dwemer and the formation of the Tribunal.",
+      "events": [
+        {
+          "name": "War of the First Council",
+          "date": "1E 668-700",
+          "description": "A conflict between the secular House Dwemer and the religious House Indoril, led by Nerevar. The war culminated in the Battle of Red Mountain, where the Dwemer mysteriously vanished from Tamriel. Following this, Nerevar's advisors (Almalexia, Sotha Sil, and Vivec) used the Tools of Kagrenac on the Heart of Lorkhan to become living gods, forming the Tribunal."
+        },
+        {
+          "name": "Formation of the Tribunal Temple",
+          "date": "1E 700",
+          "description": "After the Battle of Red Mountain, Almalexia, Sotha Sil, and Vivec established the Tribunal Temple, which became the dominant religious and political force in Morrowind. The Tribunal, or ALMSIVI, were worshipped as living gods."
+        },
+        {
+          "name": "Founding of the Great Houses",
+          "date": "1E 700-1000",
+          "description": "The modern Great Houses of Morrowind (Indoril, Redoran, Telvanni, Dres, and Hlaalu) were formalized during this period, establishing the political structure that would govern Morrowind for millennia."
+        }
+      ]
+    },
+    {
+      "id": "second_era",
+      "name": "Second Era",
+      "description": "The Second Era was a time of great upheaval across Tamriel, with the fall of the Reman Dynasty and the subsequent Interregnum. Morrowind remained relatively stable under the Tribunal's guidance, though it faced threats from Akaviri invasions and internal conflicts.",
+      "events": [
+        {
+          "name": "Four-Score War",
+          "date": "2E 572-2E 896",
+          "description": "A long conflict between Morrowind and the Reman Empire, which ended in stalemate. The war demonstrated the Tribunal's power, as they personally led Morrowind's armies against the Empire."
+        },
+        {
+          "name": "Akaviri Invasion",
+          "date": "2E 572",
+          "description": "Morrowind joined forces with Skyrim and Argonia to repel an Akaviri invasion, forming the Ebonheart Pact, one of the three major alliances during the Alliance War."
+        },
+        {
+          "name": "Tiber Septim's Conquest",
+          "date": "2E 896",
+          "description": "Tiber Septim conquered Morrowind not through military might, but through diplomacy. Vivec signed the Armistice with Tiber Septim, allowing Morrowind to retain significant autonomy in exchange for nominal Imperial rule."
+        }
+      ]
+    },
+    {
+      "id": "third_era",
+      "name": "Third Era",
+      "description": "The Third Era, established by Tiber Septim, was a time of relative stability for much of Tamriel under the Septim Dynasty. Morrowind maintained its unique culture and traditions while being part of the Empire. The era ended with the Oblivion Crisis and the fall of the Septim Dynasty.",
+      "events": [
+        {
+          "name": "Armistice with the Empire",
+          "date": "3E 0",
+          "description": "The Treaty of the Armistice formalized Morrowind's status within the Empire. Morrowind retained many of its traditional practices, including slavery, and the Tribunal continued to be worshipped."
+        },
+        {
+          "name": "Dagoth Ur's Awakening",
+          "date": "3E 417",
+          "description": "Dagoth Ur, once a trusted friend of Nerevar who was thought dead, reawakened beneath Red Mountain and began to spread the Blight and Corprus disease. His return weakened the Tribunal's power as they expended energy maintaining the Ghostfence to contain his influence."
+        },
+        {
+          "name": "Opening of Vvardenfell",
+          "date": "3E 414",
+          "description": "Emperor Uriel Septim VII opened Vvardenfell to settlement and trade, ending its status as a Temple preserve. This led to an influx of Imperial culture and institutions."
+        },
+        {
+          "name": "Nerevarine Prophecies",
+          "date": "3E 427",
+          "description": "The prophesied reincarnation of Nerevar, known as the Nerevarine, emerged to defeat Dagoth Ur and fulfill the Seven Visions of the Seven Trials. The Nerevarine's actions led to the destruction of the Heart of Lorkhan and the loss of the Tribunal's divine powers."
+        }
+      ]
+    }
+  ],
+  "religion": [
+    {
+      "id": "tribunal_temple",
+      "name": "Tribunal Temple",
+      "description": "The dominant religion in Morrowind, centered around the worship of the three living gods: Almalexia, Sotha Sil, and Vivec, collectively known as the Tribunal or ALMSIVI. The Temple combines veneration of the Tribunal with ancestor worship and recognition of various saints.",
+      "deities": [
+        {
+          "name": "Almalexia",
+          "titles": ["Mother Morrowind", "Lady of Mercy", "The Healing Mother"],
+          "domains": ["Healing", "Protection", "Motherhood"],
+          "description": "Once the wife of Lord Nerevar, Almalexia is the most publicly visible of the Tribunal. She resides in Mournhold and is known for her healing powers and maternal protection of the Dunmer people."
+        },
+        {
+          "name": "Sotha Sil",
+          "titles": ["The Clockwork God", "Father of Mysteries", "The Wizard-Mystic"],
+          "domains": ["Magic", "Science", "Mystery"],
+          "description": "The most reclusive of the Tribunal, Sotha Sil retreated to his Clockwork City, a realm of his own creation. He is revered for his wisdom and magical knowledge."
+        },
+        {
+          "name": "Vivec",
+          "titles": ["The Warrior-Poet", "Master of Morrowind", "The Living God"],
+          "domains": ["Art", "War", "Duality"],
+          "description": "Half-warrior, half-poet, Vivec is the most complex of the Tribunal. Physically half-Dunmer, half-Chimer, Vivec embodies duality and contradiction. Vivec resides in the Palace of Vivec in Vivec City and is the most accessible of the Three to the common people."
+        }
+      ],
+      "practices": [
+        {
+          "name": "Pilgrimages of the Seven Graces",
+          "description": "A series of pilgrimages to seven shrines across Vvardenfell, each commemorating a virtue of Lord Vivec. Completing these pilgrimages is considered a sacred duty for devout Temple followers."
+        },
+        {
+          "name": "Ancestor Worship",
+          "description": "The veneration of family ancestors, who are believed to continue to guide and protect their descendants from the spirit world. Family shrines are common in Dunmer homes."
+        },
+        {
+          "name": "Tribunal Worship",
+          "description": "Regular prayer and offerings at Temple shrines dedicated to the Tribunal. The Tribunal are believed to be directly involved in the affairs of Morrowind and its people."
+        }
+      ],
+      "saints": [
+        {
+          "name": "Saint Nerevar",
+          "description": "The former Hortator (war leader) of the Chimer, who led his people against the Dwemer in the War of the First Council. His death is shrouded in mystery, and he is revered as a cultural hero."
+        },
+        {
+          "name": "Saint Veloth",
+          "description": "The prophet who led the Chimer (ancestors of the Dunmer) from the Summerset Isles to Morrowind. He is credited with establishing Dunmer culture and their spiritual practices."
+        },
+        {
+          "name": "Saint Roris",
+          "description": "A martyr who was tortured and killed by Argonians but refused to renounce the Tribunal. He is a symbol of faith and endurance in the face of suffering."
+        },
+        {
+          "name": "Saint Delyn",
+          "description": "A patron of potters and glassmakers, known for his generosity and support of the poor."
+        },
+        {
+          "name": "Saint Olms",
+          "description": "A patron of sailors and fishermen, who is said to have calmed the Inner Sea during a great storm."
+        }
+      ]
+    },
+    {
+      "id": "ashlander_beliefs",
+      "name": "Ashlander Beliefs",
+      "description": "The traditional religious practices of the nomadic Ashlander tribes, who rejected the Tribunal and maintained the old ways of ancestor worship and Daedra veneration. The Ashlanders preserved the Nerevarine prophecies, which foretold the return of Nerevar to overthrow the 'false gods' of the Tribunal.",
+      "deities": [
+        {
+          "name": "Azura",
+          "titles": ["Queen of Dawn and Dusk", "Mother of the Rose", "The Anticipation of Sotha Sil"],
+          "domains": ["Prophecy", "Transition", "Magic"],
+          "description": "The most important Daedric Prince in Ashlander worship, Azura is credited with transforming the Chimer into the Dunmer as punishment for the Tribunal's betrayal of Nerevar. She is also the source of the Nerevarine prophecies."
+        },
+        {
+          "name": "Boethiah",
+          "titles": ["Prince of Plots", "The Anticipation of Almalexia"],
+          "domains": ["Deceit", "Conspiracy", "Unlawful Overthrow"],
+          "description": "Boethiah is credited with convincing the Chimer to abandon the Aldmer and establish a new culture in Morrowind. He/she is associated with cultural revolution and the overthrow of societal constraints."
+        },
+        {
+          "name": "Mephala",
+          "titles": ["Webspinner", "The Anticipation of Vivec"],
+          "domains": ["Secrets", "Sex", "Murder"],
+          "description": "Mephala taught the Chimer the skills they would need to survive and thrive in Morrowind, including the arts of subterfuge, assassination, and seduction."
+        }
+      ],
+      "practices": [
+        {
+          "name": "Ancestor Worship",
+          "description": "Like mainstream Dunmer, Ashlanders venerate their ancestors, but with a greater emphasis on direct communion through rituals led by their wise women."
+        },
+        {
+          "name": "Wise Woman Traditions",
+          "description": "Ashlander tribes are guided spiritually by wise women, who interpret dreams, perform healing rituals, and preserve oral traditions, including the Nerevarine prophecies."
+        },
+        {
+          "name": "Nomadic Lifestyle",
+          "description": "The Ashlanders' religious practices are integrated with their nomadic way of life, with rituals marking seasonal migrations and the establishment of new camps."
+        }
+      ]
+    },
+    {
+      "id": "imperial_cult",
+      "name": "Imperial Cult",
+      "description": "The official religion of the Septim Empire, centered around the worship of the Nine Divines. In Morrowind, the Cult serves the spiritual needs of Imperial citizens and converts while respecting the dominant position of the Tribunal Temple among the native Dunmer.",
+      "deities": [
+        {
+          "name": "Akatosh",
+          "titles": ["The Dragon God of Time", "The First of the Divines"],
+          "domains": ["Time", "Endurance", "Invincibility"],
+          "description": "The chief deity of the Nine Divines, Akatosh represents endurance, invincibility, and everlasting legitimacy."
+        },
+        {
+          "name": "Arkay",
+          "titles": ["God of the Cycle of Life and Death", "God of Funerals and Burials"],
+          "domains": ["Life", "Death", "Funerary Rites"],
+          "description": "Arkay governs the cycles of life and death and is associated with funerary rites and the protection of souls."
+        },
+        {
+          "name": "Dibella",
+          "titles": ["Goddess of Beauty", "The Lady of Love"],
+          "domains": ["Beauty", "Art", "Love"],
+          "description": "Dibella is the goddess of beauty, art, and affection, inspiring creativity and passion."
+        },
+        {
+          "name": "Julianos",
+          "titles": ["God of Wisdom and Logic", "The Wise One"],
+          "domains": ["Wisdom", "Logic", "Literature"],
+          "description": "Julianos is associated with wisdom, logic, and literature, and is the patron of mages and scholars."
+        },
+        {
+          "name": "Kynareth",
+          "titles": ["Goddess of Air", "The Lady of the Heavens"],
+          "domains": ["Air", "Wind", "Nature"],
+          "description": "Kynareth is the goddess of the heavens, air, and elements, and is associated with nature and weather."
+        },
+        {
+          "name": "Mara",
+          "titles": ["Goddess of Love", "The Mother Goddess"],
+          "domains": ["Love", "Compassion", "Marriage"],
+          "description": "Mara is the goddess of love, compassion, and marriage, representing the nurturing aspects of the divine."
+        },
+        {
+          "name": "Stendarr",
+          "titles": ["God of Mercy", "The Apologist of Men"],
+          "domains": ["Mercy", "Justice", "Righteousness"],
+          "description": "Stendarr is the god of mercy, justice, and righteous rule, and is the patron of the Imperial Legion."
+        },
+        {
+          "name": "Zenithar",
+          "titles": ["God of Work and Commerce", "The Trader God"],
+          "domains": ["Work", "Commerce", "Trade"],
+          "description": "Zenithar is the god of work, commerce, and trade, encouraging prosperity through honest labor."
+        },
+        {
+          "name": "Talos",
+          "titles": ["Heir to the Seat of Sundered Kings", "The Dragonborn God"],
+          "domains": ["War", "Governance", "Mankind"],
+          "description": "Talos, also known as Tiber Septim, is the ninth divine, a mortal who ascended to godhood after unifying Tamriel. He represents the potential for mankind to achieve divinity."
+        }
+      ],
+      "practices": [
+        {
+          "name": "Regular Worship",
+          "description": "Followers of the Nine Divines typically pray at shrines or chapels dedicated to specific deities, seeking blessings and divine favor."
+        },
+        {
+          "name": "Charity",
+          "description": "The Imperial Cult emphasizes charitable works, particularly in Morrowind where it seeks to demonstrate the benevolence of Imperial culture."
+        },
+        {
+          "name": "Missionary Work",
+          "description": "The Cult engages in missionary activities, seeking to spread the worship of the Nine Divines while respecting local traditions."
+        }
+      ]
+    }
+  ],
+  "races": [
+    {
+      "id": "dunmer",
+      "name": "Dunmer",
+      "also_known_as": ["Dark Elves", "Chimer (ancestral form)"],
+      "description": "The Dunmer, or Dark Elves, are the native people of Morrowind. They were once the Chimer, golden-skinned elves who followed the prophet Veloth from the Summerset Isles to Morrowind. Their skin was changed to ashen gray and their eyes to fiery red as a curse (or blessing, depending on interpretation) from the Daedric Prince Azura after the Tribunal used the Heart of Lorkhan to become gods.",
+      "culture": {
+        "social_structure": "Dunmer society is organized around Great Houses, with House affiliation determining much of a Dunmer's social status, occupation, and political allegiance. Outside the House system are the nomadic Ashlanders and the Temple hierarchy.",
+        "values": "Honor, family loyalty, tradition, and religious devotion are highly valued in Dunmer culture. There is also a strong emphasis on self-reliance and personal strength.",
+        "arts": "Dunmer artistic traditions include elaborate architecture, particularly in the construction of ancestral tombs and Great House manors, as well as distinctive clothing, armor, and weapon designs."
+      },
+      "notable_traits": [
+        "Natural resistance to fire",
+        "Affinity for destructive magic",
+        "Ability to summon ancestral ghosts for aid",
+        "Adaptation to harsh volcanic environments"
+      ]
+    },
+    {
+      "id": "imperial",
+      "name": "Imperial",
+      "also_known_as": ["Cyrodiils", "Cyrodilics"],
+      "description": "Imperials are the natives of Cyrodiil, the central province of Tamriel and the seat of the Empire. They are a cosmopolitan people with a talent for diplomacy, trade, and governance. In Morrowind, they represent Imperial interests and institutions, including the Imperial Legion, Imperial Cult, and East Empire Company.",
+      "culture": {
+        "social_structure": "Imperial society is hierarchical, with a strong emphasis on civil service, military service, and mercantile pursuits as paths to advancement.",
+        "values": "Law, order, diplomacy, and commerce are highly valued in Imperial culture. There is also a strong tradition of religious devotion to the Nine Divines.",
+        "arts": "Imperial artistic traditions reflect their cosmopolitan nature, incorporating elements from many cultures while maintaining a distinctive classical style in architecture, literature, and clothing."
+      },
+      "notable_traits": [
+        "Diplomatic skills",
+        "Adaptability to different cultures",
+        "Strong tradition of military discipline",
+        "Talent for commerce and governance"
+      ]
+    },
+    {
+      "id": "nord",
+      "name": "Nord",
+      "also_known_as": ["Sons and Daughters of Skyrim"],
+      "description": "Nords are the hardy people of Skyrim, known for their resistance to cold and their martial prowess. In Morrowind, they often serve as mercenaries, traders, or members of the Imperial Legion, and have a significant presence in western regions closer to Skyrim.",
+      "culture": {
+        "social_structure": "Nord society values strength and honor, with leadership typically going to those who demonstrate these qualities. Family and clan ties are important, but individual achievement is highly respected.",
+        "values": "Courage, honor, strength, and loyalty are paramount in Nord culture. There is also a strong tradition of oral history and storytelling.",
+        "arts": "Nord artistic traditions include epic poetry, heroic sagas, and distinctive armor and weapon designs emphasizing functionality and intimidation."
+      },
+      "notable_traits": [
+        "Natural resistance to cold",
+        "Physical strength and endurance",
+        "Battle fury (berserker rage)",
+        "Talent for heavy armor and two-handed weapons"
+      ]
+    },
+    {
+      "id": "breton",
+      "name": "Breton",
+      "also_known_as": ["Manmer (archaic)"],
+      "description": "Bretons are the people of High Rock, with a mixed heritage of human and elven ancestry that gives them a natural affinity for magic. In Morrowind, they often serve as mages, healers, or merchants, particularly in Imperial settlements.",
+      "culture": {
+        "social_structure": "Breton society is feudal and hierarchical, with a strong emphasis on magical achievement as a path to advancement alongside traditional noble lineages.",
+        "values": "Magical knowledge, intellectual achievement, and courtly manners are highly valued in Breton culture. There is also a strong tradition of chivalry and knightly orders.",
+        "arts": "Breton artistic traditions include elaborate tapestries, illuminated manuscripts, and enchanted items combining functionality with aesthetic appeal."
+      },
+      "notable_traits": [
+        "Natural resistance to magic",
+        "Affinity for conjuration and restoration magic",
+        "Diplomatic skills",
+        "Talent for enchanting"
+      ]
+    }
+  ],
+  "creatures": [
+    {
+      "id": "silt_strider",
+      "name": "Silt Strider",
+      "description": "Silt striders are enormous insect-like creatures used as a primary form of transportation in Morrowind. They have a hollow, boat-like carapace in which passengers can ride, and are guided by drivers who directly manipulate the creature's exposed neural tissue. Despite their somewhat unsettling appearance, silt striders are gentle creatures that form bonds with their drivers.",
+      "habitat": "Ashlands, West Gash",
+      "behavior": "Docile, herbivorous",
+      "uses": "Transportation between major settlements"
+    },
+    {
+      "id": "cliff_racer",
+      "name": "Cliff Racer",
+      "description": "Cliff racers are flying reptilian creatures with distinctive wing structures and long, pointed tails. They are notorious for their aggressive behavior and tendency to attack travelers. Their population has grown out of control in many regions of Vvardenfell, making them a persistent nuisance.",
+      "habitat": "Throughout Vvardenfell, particularly in mountainous regions",
+      "behavior": "Aggressive, territorial",
+      "uses": "Their plumes are used in some alchemical recipes"
+    },
+    {
+      "id": "netch",
+      "name": "Netch",
+      "description": "Netches are floating, jellyfish-like creatures that hover above the ground using internal gas bladders. They come in two varieties: the larger bull netch and the smaller betty netch. Despite their peaceful nature, they can defend themselves with powerful tentacles if threatened.",
+      "habitat": "Ascadian Isles, Azura's Coast, West Gash",
+      "behavior": "Generally peaceful unless provoked",
+      "uses": "Netch leather is highly prized for armor, and their jelly has alchemical properties"
+    },
+    {
+      "id": "kwama",
+      "name": "Kwama",
+      "description": "Kwama are insectoid creatures that live in complex underground colonies. They have several castes, including workers, warriors, and queens. Kwama egg mines are a major industry in Morrowind, as the eggs are a staple food source.",
+      "habitat": "Underground throughout Vvardenfell",
+      "behavior": "Social, hive-minded",
+      "uses": "Kwama eggs are harvested for food, and kwama cuttle is used in alchemy"
+    },
+    {
+      "id": "guar",
+      "name": "Guar",
+      "description": "Guar are reptilian, dinosaur-like creatures that have been domesticated by the Dunmer. They are used as pack animals and for meat and hides. Wild guar can still be found in many regions of Vvardenfell.",
+      "habitat": "Throughout Vvardenfell, particularly in the Ascadian Isles and West Gash",
+      "behavior": "Docile when domesticated, cautious in the wild",
+      "uses": "Pack animals, source of meat and hides"
+    }
+  ],
+  "magic": [
+    {
+      "id": "schools_of_magic",
+      "name": "Schools of Magic",
+      "description": "Magic in Morrowind is categorized into several schools, each focusing on different types of spells and magical effects. The Imperial Mages Guild recognizes six primary schools, while some independent practitioners may categorize magic differently.",
+      "schools": [
+        {
+          "name": "Alteration",
+          "description": "Spells that alter the physical properties of the target, such as water breathing, levitation, or opening locks.",
+          "common_spells": ["Levitate", "Water Breathing", "Shield", "Open"]
+        },
+        {
+          "name": "Conjuration",
+          "description": "Spells that summon creatures or items from other planes of existence, or bind souls.",
+          "common_spells": ["Summon Ancestral Ghost", "Bound Dagger", "Soul Trap"]
+        },
+        {
+          "name": "Destruction",
+          "description": "Offensive spells that cause direct damage through elemental forces or other means.",
+          "common_spells": ["Fireball", "Frost Bite", "Shock Touch", "Poison"]
+        },
+        {
+          "name": "Illusion",
+          "description": "Spells that alter perception, such as invisibility, light, or influencing mood.",
+          "common_spells": ["Chameleon", "Light", "Calm Humanoid", "Paralyze"]
+        },
+        {
+          "name": "Mysticism",
+          "description": "Spells that manipulate magical forces directly, such as teleportation, detection, or absorption.",
+          "common_spells": ["Mark", "Recall", "Divine Intervention", "Detect Creature"]
+        },
+        {
+          "name": "Restoration",
+          "description": "Spells that restore or fortify attributes, cure diseases, or protect from magic.",
+          "common_spells": ["Heal", "Cure Common Disease", "Restore Strength", "Resist Fire"]
+        }
+      ]
+    },
+    {
+      "id": "unique_magic",
+      "name": "Unique Magical Practices",
+      "description": "Beyond the standard schools of magic recognized by the Mages Guild, Morrowind has several unique magical traditions and practices that reflect its distinct cultural and historical development.",
+      "practices": [
+        {
+          "name": "Tribunal Magic",
+          "description": "The divine powers of the Tribunal, drawn from the Heart of Lorkhan, represent a unique form of magic in Tamriel. Their abilities include reality manipulation, weather control, and other godlike powers."
+        },
+        {
+          "name": "Telvanni Wizardry",
+          "description": "House Telvanni mages are known for their unorthodox and powerful magical practices, including growing their towers from giant mushrooms and extending their lifespans for centuries."
+        },
+        {
+          "name": "Ashlander Rituals",
+          "description": "The wise women of the Ashlander tribes practice unique magical rituals involving dream interpretation, ancestor communication, and herbal magic."
+        },
+        {
+          "name": "Corprus Magic",
+          "description": "Dagoth Ur's ability to spread the divine disease Corprus represents a corrupted form of the Tribunal's power, drawn from the same source but manifesting as a contagious disease that causes physical and mental degeneration or, in some cases, superhuman abilities."
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "tools_of_kagrenac",
+      "name": "Tools of Kagrenac",
+      "description": "A set of powerful artifacts created by Kagrenac, the Dwemer Tonal Architect, to harness the power of the Heart of Lorkhan. These tools were used by the Tribunal to attain their divinity and later played a crucial role in the defeat of Dagoth Ur.",
+      "items": [
+        {
+          "name": "Keening",
+          "description": "A short blade designed to focus and channel the power of the Heart of Lorkhan. It can cut through the Heart's divine energy."
+        },
+        {
+          "name": "Sunder",
+          "description": "A hammer that can strike the Heart of Lorkhan, producing specific tonal resonances that allow its power to be extracted."
+        },
+        {
+          "name": "Wraithguard",
+          "description": "A gauntlet that protects the wearer from the harmful effects of using Keening and Sunder on the Heart of Lorkhan."
+        }
+      ]
+    },
+    {
+      "id": "daedric_artifacts",
+      "name": "Daedric Artifacts",
+      "description": "Powerful items created or gifted by the Daedric Princes, often given as rewards to mortals who complete tasks or quests for these divine beings. These artifacts possess unique and potent magical properties.",
+      "items": [
+        {
+          "name": "Azura's Star",
+          "description": "A reusable soul gem of unlimited capacity, gifted by Azura to her faithful followers."
+        },
+        {
+          "name": "Spear of Bitter Mercy",
+          "description": "A powerful spear associated with Hircine, the Daedric Prince of the Hunt."
+        },
+        {
+          "name": "Ebony Mail",
+          "description": "A piece of heavy armor gifted by Boethiah, which provides strong protection and magical resistance."
+        },
+        {
+          "name": "Mehrunes' Razor",
+          "description": "A dagger created by Mehrunes Dagon that has a chance to instantly kill any opponent."
+        }
+      ]
+    },
+    {
+      "id": "tribunal_artifacts",
+      "name": "Tribunal Artifacts",
+      "description": "Sacred items associated with the Tribunal gods, often housed in temples or carried by high-ranking Temple officials. These artifacts are revered by the Dunmer and are believed to carry the blessing of the Tribunal.",
+      "items": [
+        {
+          "name": "Trueflame",
+          "description": "The legendary blade of Nerevar, reforged during the events surrounding the Nerevarine prophecies."
+        },
+        {
+          "name": "Hopesfire",
+          "description": "Almalexia's personal blade, a powerful weapon imbued with fire magic."
+        },
+        {
+          "name": "Muatra",
+          "description": "Vivec's spear, said to have been used in many of the god's legendary exploits."
+        }
+      ]
+    }
+  ]
+}

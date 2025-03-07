@@ -1,0 +1,467 @@
+{
+  "cities": [
+    {
+      "id": "balmora",
+      "name": "Balmora",
+      "region": "West Gash",
+      "description": "Balmora is the district seat of House Hlaalu, and the largest settlement on Vvardenfell after Vivec City. It straddles the Odai River, with the wealthy west side containing the Council Manor, guildhalls, and upper-class homes, while the east side houses shops, cornerclubs, and lower-class residences.",
+      "government": "House Hlaalu",
+      "economy": "Trade, mining, agriculture",
+      "population": "Large",
+      "points_of_interest": [
+        {"name": "Hlaalu Council Manor", "description": "The seat of House Hlaalu's governance in Vvardenfell"},
+        {"name": "South Wall Cornerclub", "description": "A tavern that serves as the headquarters for the local Thieves Guild"},
+        {"name": "Eight Plates", "description": "A popular tavern frequented by locals and travelers"},
+        {"name": "Mages Guild", "description": "The local branch of the Imperial Mages Guild"},
+        {"name": "Fighters Guild", "description": "The local branch of the Imperial Fighters Guild"},
+        {"name": "Temple", "description": "A shrine to the Tribunal, maintained by Temple priests"}
+      ],
+      "notable_residents": [
+        {"name": "Nileno Dorvayn", "role": "House Hlaalu Kinsman and Council representative"},
+        {"name": "Eydis Fire-Eye", "role": "Fighters Guild Steward"},
+        {"name": "Ranis Athrys", "role": "Mages Guild Steward"},
+        {"name": "Caius Cosades", "role": "Imperial Blades agent (disguised as a sugar addict)"},
+        {"name": "Habasi", "role": "Thieves Guild leader, known as 'the Thief'"}
+      ],
+      "travel_connections": [
+        {"destination": "Vivec", "methods": ["silt strider", "boat"]},
+        {"destination": "Ald'ruhn", "methods": ["silt strider"]},
+        {"destination": "Seyda Neen", "methods": ["silt strider"]},
+        {"destination": "Gnisis", "methods": ["silt strider"]},
+        {"destination": "Suran", "methods": ["silt strider"]}
+      ]
+    },
+    {
+      "id": "vivec",
+      "name": "Vivec",
+      "region": "Ascadian Isles",
+      "description": "Vivec City is the largest settlement in Vvardenfell, named after the living god Vivec. The city consists of nine artificial islands, or cantons, rising from the water of the Inner Sea. Each canton is a massive multi-tiered structure with interior warrens for residents, merchants, and services.",
+      "government": "Temple (Lord Vivec)",
+      "economy": "Trade, pilgrimage, administration",
+      "population": "Very large",
+      "points_of_interest": [
+        {"name": "Temple Canton", "description": "The religious center of the city, housing the High Fane and the Palace of Vivec"},
+        {"name": "Foreign Quarter", "description": "The canton where outlanders and Imperial institutions are concentrated"},
+        {"name": "Hlaalu Canton", "description": "The canton controlled by House Hlaalu"},
+        {"name": "Redoran Canton", "description": "The canton controlled by House Redoran"},
+        {"name": "Telvanni Canton", "description": "The canton controlled by House Telvanni"},
+        {"name": "Arena Canton", "description": "The site of public entertainments and combat spectacles"},
+        {"name": "St. Delyn Canton", "description": "A residential and commercial canton named after a Tribunal saint"},
+        {"name": "St. Olms Canton", "description": "A residential and commercial canton named after a Tribunal saint"},
+        {"name": "Ministry of Truth", "description": "A hollowed-out moon suspended above the Temple Canton, used as a prison"}
+      ],
+      "notable_residents": [
+        {"name": "Vivec", "role": "Living god, one of the Tribunal"},
+        {"name": "Tholer Saryoni", "role": "Archcanon of the Temple"},
+        {"name": "Crassius Curio", "role": "House Hlaalu Councilor"},
+        {"name": "Trebonius Artorius", "role": "Arch-Mage of the Mages Guild"},
+        {"name": "Sjoring Hard-Heart", "role": "Guildmaster of the Fighters Guild"}
+      ],
+      "travel_connections": [
+        {"destination": "Ebonheart", "methods": ["boat"]},
+        {"destination": "Molag Mar", "methods": ["boat"]},
+        {"destination": "Hla Oad", "methods": ["boat"]},
+        {"destination": "Sadrith Mora", "methods": ["boat"]},
+        {"destination": "Tel Branora", "methods": ["boat"]},
+        {"destination": "Balmora", "methods": ["silt strider"]}
+      ]
+    },
+    {
+      "id": "ald_ruhn",
+      "name": "Ald'ruhn",
+      "region": "Ashlands",
+      "description": "Ald'ruhn is the district seat of House Redoran, built around the shell of an ancient emperor crab. The Redoran Council chambers are located inside the giant crab shell, known as 'Skar'. The city is surrounded by the harsh Ashlands region and frequently endures ash storms from Red Mountain.",
+      "government": "House Redoran",
+      "economy": "Mining, hunting, warrior training",
+      "population": "Medium",
+      "points_of_interest": [
+        {"name": "Skar", "description": "The hollowed-out shell of an ancient emperor crab that houses the Redoran Council"},
+        {"name": "Ald'ruhn Temple", "description": "A major Temple shrine serving the Redoran faithful"},
+        {"name": "Ald'ruhn Mages Guild", "description": "The local branch of the Imperial Mages Guild"},
+        {"name": "Ald'ruhn Fighters Guild", "description": "The local branch of the Imperial Fighters Guild"},
+        {"name": "The Rat in the Pot", "description": "A tavern that serves as a front for Thieves Guild operations"},
+        {"name": "Morvayn Manor", "description": "Home of an important Redoran family"}
+      ],
+      "notable_residents": [
+        {"name": "Athyn Sarethi", "role": "House Redoran Councilor"},
+        {"name": "Bolvyn Venim", "role": "Archmaster of House Redoran"},
+        {"name": "Edwinna Elbert", "role": "Mages Guild Steward"},
+        {"name": "Percius Mercius", "role": "Fighters Guild Champion"},
+        {"name": "Neminda", "role": "House Redoran Lawman and quest giver"}
+      ],
+      "travel_connections": [
+        {"destination": "Balmora", "methods": ["silt strider"]},
+        {"destination": "Gnisis", "methods": ["silt strider"]},
+        {"destination": "Khuul", "methods": ["silt strider"]},
+        {"destination": "Maar Gan", "methods": ["silt strider"]}
+      ]
+    },
+    {
+      "id": "sadrith_mora",
+      "name": "Sadrith Mora",
+      "region": "Azura's Coast",
+      "description": "Sadrith Mora is the district seat of House Telvanni, located on an island in the eastern archipelago. Unlike other cities, it has no conventional buildings; instead, the Telvanni wizards grow their towers from massive mushrooms using magic. The town is centered around the Wolverine Hall, an Imperial fort that houses Imperial services.",
+      "government": "House Telvanni",
+      "economy": "Magic, alchemy, fishing",
+      "population": "Medium",
+      "points_of_interest": [
+        {"name": "Tel Naga", "description": "The tower of Neloth, a powerful Telvanni wizard"},
+        {"name": "Gateway Inn", "description": "An inn catering to visitors, located in Wolverine Hall"},
+        {"name": "Wolverine Hall", "description": "An Imperial fort housing the Mages Guild, Fighters Guild, and Imperial Cult shrine"},
+        {"name": "Telvanni Council House", "description": "Where House Telvanni business is conducted"},
+        {"name": "Dirty Muriel's Cornerclub", "description": "A tavern that serves as a front for Thieves Guild operations"}
+      ],
+      "notable_residents": [
+        {"name": "Neloth", "role": "Telvanni Wizard Lord"},
+        {"name": "Angaredhel", "role": "Mages Guild Steward"},
+        {"name": "Hrundi", "role": "Fighters Guild Steward"},
+        {"name": "Uleni Heleran", "role": "Telvanni Mouth"},
+        {"name": "Big Helende", "role": "Thieves Guild leader"}
+      ],
+      "travel_connections": [
+        {"destination": "Vivec", "methods": ["boat"]},
+        {"destination": "Tel Mora", "methods": ["boat"]},
+        {"destination": "Tel Aruhn", "methods": ["boat"]},
+        {"destination": "Dagon Fel", "methods": ["boat"]}
+      ]
+    }
+  ],
+  "settlements": [
+    {
+      "id": "seyda_neen",
+      "name": "Seyda Neen",
+      "region": "Bitter Coast",
+      "description": "Seyda Neen is a small Imperial settlement that serves as the primary port of entry for most visitors to Vvardenfell. It houses the Census and Excise Office, where new arrivals must register. The town is surrounded by the swampy Bitter Coast region.",
+      "government": "Imperial",
+      "economy": "Fishing, trade, customs",
+      "population": "Small",
+      "points_of_interest": [
+        {"name": "Census and Excise Office", "description": "Where new arrivals to Vvardenfell must register"},
+        {"name": "Arrille's Tradehouse", "description": "The local general store and tavern"},
+        {"name": "Lighthouse", "description": "A tall lighthouse that guides ships into the harbor"}
+      ],
+      "notable_residents": [
+        {"name": "Socucius Ergalla", "role": "Census and Excise Agent"},
+        {"name": "Sellus Gravius", "role": "Imperial Legion Officer"},
+        {"name": "Arrille", "role": "Tradehouse owner"},
+        {"name": "Fargoth", "role": "Local Bosmer resident"}
+      ],
+      "travel_connections": [
+        {"destination": "Balmora", "methods": ["silt strider"]},
+        {"destination": "Hla Oad", "methods": ["walking"]},
+        {"destination": "Pelagiad", "methods": ["walking"]},
+        {"destination": "Ebonheart", "methods": ["boat"]}
+      ]
+    },
+    {
+      "id": "gnisis",
+      "name": "Gnisis",
+      "region": "West Gash",
+      "description": "Gnisis is a small mining town in the northwestern part of Vvardenfell. It is centered around an egg mine and features a Temple shrine dedicated to Vivec's legendary battle with Mehrunes Dagon. The town is also home to Fort Darius, an Imperial Legion outpost.",
+      "government": "Imperial/Temple",
+      "economy": "Kwama egg mining",
+      "population": "Small",
+      "points_of_interest": [
+        {"name": "Gnisis Egg Mine", "description": "A kwama egg mine that is the town's primary industry"},
+        {"name": "Temple of Vivec's Battle", "description": "A shrine commemorating Vivec's battle with Mehrunes Dagon"},
+        {"name": "Fort Darius", "description": "An Imperial Legion outpost"},
+        {"name": "Arvs-Drelen", "description": "The tower of Baladas Demnevanni, a reclusive Telvanni wizard"}
+      ],
+      "notable_residents": [
+        {"name": "Baladas Demnevanni", "role": "Telvanni wizard"},
+        {"name": "Abelmawia", "role": "Temple priest"},
+        {"name": "Shishara", "role": "Egg mine owner"},
+        {"name": "Madach Bemis", "role": "Tradehouse owner"}
+      ],
+      "travel_connections": [
+        {"destination": "Ald'ruhn", "methods": ["silt strider"]},
+        {"destination": "Khuul", "methods": ["walking"]},
+        {"destination": "Maar Gan", "methods": ["walking"]}
+      ]
+    },
+    {
+      "id": "tel_mora",
+      "name": "Tel Mora",
+      "region": "Azura's Coast",
+      "description": "Tel Mora is a Telvanni settlement built around the tower of Mistress Dratha, a powerful and ancient Telvanni wizard who is known for her hatred of men. The town is located on an island in the northeastern archipelago and is notable for being populated almost entirely by women.",
+      "government": "House Telvanni (Dratha)",
+      "economy": "Magic, alchemy, fishing",
+      "population": "Small",
+      "points_of_interest": [
+        {"name": "Tel Mora", "description": "The tower of Dratha, grown from a giant mushroom"},
+        {"name": "Tel Mora Upper Tower", "description": "Dratha's private quarters and magical laboratory"},
+        {"name": "Tel Mora Docks", "description": "The small harbor where boats arrive and depart"}
+      ],
+      "notable_residents": [
+        {"name": "Dratha", "role": "Telvanni Wizard Lord"},
+        {"name": "Berwen", "role": "Trader"},
+        {"name": "Jolda", "role": "Dratha's Mouth (representative)"}
+      ],
+      "travel_connections": [
+        {"destination": "Sadrith Mora", "methods": ["boat"]},
+        {"destination": "Vos", "methods": ["walking"]},
+        {"destination": "Tel Vos", "methods": ["walking"]}
+      ]
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "red_mountain",
+      "name": "Red Mountain",
+      "region": "Molag Amur",
+      "description": "Red Mountain is the massive volcano that dominates the center of Vvardenfell. It is constantly active, spewing ash and toxic fumes across the island. The mountain is surrounded by the Ghostfence, a magical barrier created by the Tribunal to contain the blight and creatures within. Red Mountain is the site of the ancient Dwemer fortress of Dagoth Ur and is now home to the Sixth House cult led by the being of the same name.",
+      "points_of_interest": [
+        {"name": "Dagoth Ur", "description": "The ancient Dwemer fortress at the heart of the mountain"},
+        {"name": "Ghostfence", "description": "The magical barrier surrounding the mountain"},
+        {"name": "Ghostgate", "description": "The only sanctioned entrance through the Ghostfence"}
+      ],
+      "dangers": [
+        "Ash storms",
+        "Blight diseases",
+        "Corprus beasts",
+        "Sixth House cultists",
+        "Ash creatures"
+      ],
+      "lore": "Red Mountain was the site of the Battle of Red Mountain, where the Dwemer disappeared and the Tribunal gained their divine powers from the Heart of Lorkhan. It is a place of immense magical and historical significance."
+    },
+    {
+      "id": "ghostfence",
+      "name": "Ghostfence",
+      "region": "Various",
+      "description": "The Ghostfence is a massive magical barrier that encircles Red Mountain, created and maintained by the power of the Tribunal. It is designed to contain the Blight and the creatures of Dagoth Ur within the Red Mountain region. The fence consists of a physical wall topped with a magical energy barrier, and is sustained by the souls of dead Dunmer who have dedicated themselves to the Temple.",
+      "points_of_interest": [
+        {"name": "Ghostgate", "description": "The only sanctioned entrance through the Ghostfence"},
+        {"name": "Temple Shrine", "description": "A Temple outpost at Ghostgate where pilgrims and guards rest"}
+      ],
+      "dangers": [
+        "Ash storms",
+        "Blight creatures attempting to breach the fence"
+      ],
+      "lore": "The Ghostfence requires constant attention from the Tribunal to maintain its power. As their divine energy has waned in recent years, the fence has weakened, allowing more creatures and the Blight to escape into the rest of Vvardenfell."
+    },
+    {
+      "id": "fields_of_kummu",
+      "name": "Fields of Kummu",
+      "region": "Ascadian Isles",
+      "description": "The Fields of Kummu is a shrine located in the fertile Ascadian Isles region. It commemorates the spot where Vivec is said to have taught the Dunmer people how to breathe water for an hour. Pilgrims visit the shrine to receive a blessing that temporarily allows them to breathe underwater.",
+      "points_of_interest": [
+        {"name": "Shrine of Kummu", "description": "A simple altar where pilgrims pray and receive blessings"}
+      ],
+      "dangers": [
+        "Occasional bandits",
+        "Wild animals"
+      ],
+      "lore": "According to legend, Vivec saved a village from flooding by teaching the villagers to breathe water. The Fields of Kummu marks this site and is one of the stops on the Pilgrimages of the Seven Graces."
+    }
+  ],
+  "regions": [
+    {
+      "id": "ascadian_isles",
+      "name": "Ascadian Isles",
+      "description": "The Ascadian Isles is a fertile, temperate region in southern Vvardenfell. It features lush plantations, rolling hills, and small islands in Lake Amaya and the Inner Sea. This is the most agriculturally productive region of Vvardenfell, with large plantations growing saltrice, marshmerrow, and other crops.",
+      "climate": "Temperate, mild",
+      "flora": [
+        "Saltrice",
+        "Marshmerrow",
+        "Corkbulb",
+        "Heather",
+        "Willow flowers"
+      ],
+      "fauna": [
+        "Netch",
+        "Guar",
+        "Cliff racer",
+        "Alit",
+        "Shalk"
+      ],
+      "settlements": [
+        "Vivec",
+        "Pelagiad",
+        "Suran"
+      ],
+      "resources": [
+        "Agricultural products",
+        "Fishing",
+        "Kwama eggs"
+      ]
+    },
+    {
+      "id": "bitter_coast",
+      "name": "Bitter Coast",
+      "region": "Southwest Vvardenfell",
+      "description": "The Bitter Coast is a swampy region along the southwest coast of Vvardenfell. It is characterized by dense mangrove-like trees, misty marshes, and small islands. The region gets its name from the salt marshes that make the water bitter. It is often called the 'Smuggler's Coast' due to the numerous hidden coves used by smugglers.",
+      "climate": "Humid, foggy, rainy",
+      "flora": [
+        "Luminous russula",
+        "Violet coprinus",
+        "Bungler's bane",
+        "Hypha facia",
+        "Marshmerrow"
+      ],
+      "fauna": [
+        "Mudcrab",
+        "Slaughterfish",
+        "Netch",
+        "Cliff racer",
+        "Rats"
+      ],
+      "settlements": [
+        "Seyda Neen",
+        "Hla Oad",
+        "Gnaar Mok"
+      ],
+      "resources": [
+        "Mushrooms",
+        "Fishing",
+        "Smuggling routes"
+      ]
+    },
+    {
+      "id": "west_gash",
+      "name": "West Gash",
+      "description": "The West Gash is a hilly region in northwestern Vvardenfell, forming a gap between the highlands of the Bitter Coast and the Ashlands. It is characterized by rolling hills, rocky highlands, and sparse vegetation. The climate is relatively mild compared to the nearby Ashlands.",
+      "climate": "Semi-arid, windy",
+      "flora": [
+        "Kreshweed",
+        "Stoneflower",
+        "Gold kanet",
+        "Hackle-lo leaf"
+      ],
+      "fauna": [
+        "Guar",
+        "Alit",
+        "Cliff racer",
+        "Nix-hound",
+        "Kagouti"
+      ],
+      "settlements": [
+        "Balmora",
+        "Gnisis",
+        "Khuul",
+        "Caldera"
+      ],
+      "resources": [
+        "Ebony (Caldera)",
+        "Kwama eggs",
+        "Glass"
+      ]
+    },
+    {
+      "id": "ashlands",
+      "name": "Ashlands",
+      "description": "The Ashlands is a harsh, arid region in central Vvardenfell, surrounding Red Mountain. It is characterized by little vegetation, rocky terrain, and frequent ash storms blown from Red Mountain. The region is home to the nomadic Ashlander tribes, who have adapted to the difficult conditions.",
+      "climate": "Arid, ash storms, hot",
+      "flora": [
+        "Trama root",
+        "Fire petal",
+        "Scathecraw",
+        "Chokeweed"
+      ],
+      "fauna": [
+        "Cliff racer",
+        "Alit",
+        "Shalk",
+        "Kagouti",
+        "Silt strider"
+      ],
+      "settlements": [
+        "Ald'ruhn",
+        "Maar Gan",
+        "Ashlander camps (Urshilaku, Ahemmusa, Erabenimsun, Zainab)"
+      ],
+      "resources": [
+        "Ebony",
+        "Kwama eggs",
+        "Raw glass"
+      ]
+    },
+    {
+      "id": "molag_amur",
+      "name": "Molag Amur",
+      "description": "Molag Amur is a volcanic region in southeastern Vvardenfell. It is characterized by lava flows, volcanic foyadas (ash valleys), and rocky terrain. The region is even more hostile than the Ashlands, with frequent ash storms and dangerous creatures.",
+      "climate": "Volcanic, ash storms, hot",
+      "flora": [
+        "Fire fern",
+        "Scathecraw",
+        "Trama root"
+      ],
+      "fauna": [
+        "Cliff racer",
+        "Alit",
+        "Shalk",
+        "Ancestor ghost",
+        "Flame atronach"
+      ],
+      "settlements": [
+        "Molag Mar",
+        "Tel Branora",
+        "Ashlander camps"
+      ],
+      "resources": [
+        "Ebony",
+        "Raw glass",
+        "Daedric ruins"
+      ]
+    },
+    {
+      "id": "azuras_coast",
+      "name": "Azura's Coast",
+      "description": "Azura's Coast is a rocky archipelago region in eastern Vvardenfell. It is characterized by numerous small islands, rocky terrain, and limited vegetation. The region is named after the Daedric Prince Azura, who is particularly revered by the Dunmer. House Telvanni has a strong presence in this region.",
+      "climate": "Coastal, foggy, mild",
+      "flora": [
+        "Belladonna",
+        "Stoneflower",
+        "Meadow rye",
+        "Saltrice"
+      ],
+      "fauna": [
+        "Cliff racer",
+        "Mudcrab",
+        "Slaughterfish",
+        "Dreugh",
+        "Netch"
+      ],
+      "settlements": [
+        "Sadrith Mora",
+        "Tel Mora",
+        "Tel Aruhn",
+        "Tel Branora",
+        "Dagon Fel"
+      ],
+      "resources": [
+        "Fishing",
+        "Pearls",
+        "Daedric ruins",
+        "Velothi towers"
+      ]
+    },
+    {
+      "id": "sheogorad",
+      "name": "Sheogorad",
+      "description": "Sheogorad is an archipelago region in the far north of Vvardenfell. It is characterized by numerous small islands, rocky terrain, and limited vegetation. The region is named after Sheogorath, the Daedric Prince of Madness. It is sparsely populated and contains many ancient ruins.",
+      "climate": "Coastal, foggy, cool",
+      "flora": [
+        "Belladonna",
+        "Stoneflower",
+        "Meadow rye"
+      ],
+      "fauna": [
+        "Cliff racer",
+        "Mudcrab",
+        "Slaughterfish",
+        "Dreugh",
+        "Netch",
+        "Wolf"
+      ],
+      "settlements": [
+        "Dagon Fel",
+        "Ald Redaynia"
+      ],
+      "resources": [
+        "Fishing",
+        "Daedric ruins",
+        "Dwemer ruins"
+      ]
+    }
+  ]
+}

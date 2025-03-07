@@ -1,0 +1,173 @@
+name: OpenMW Client Integration CI
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'openmw-client/**'
+      - 'openmw-source/**'
+      - '.github/workflows/openmw_client.yml'
+  pull_request:
+    branches: [ main, develop ]
+    paths:
+      - 'openmw-client/**'
+      - 'openmw-source/**'
+      - '.github/workflows/openmw_client.yml'
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          build-essential \
+          cmake \
+          libboost-all-dev \
+          libbullet-dev \
+          libsdl2-dev \
+          libqt5opengl5-dev \
+          libopenal-dev \
+          libunshield-dev \
+          libmygui-dev \
+          liblua5.1-0-dev \
+          libluajit-5.1-dev \
+          libsqlite3-dev \
+          libssl-dev
+
+    - name: Configure CMake
+      run: |
+        cd openmw-source
+        mkdir -p build
+        cd build
+        cmake .. \
+          -DBUILD_OPENCS=OFF \
+          -DOPENMW_USE_SYSTEM_YAML_CPP=OFF \
+          -DOPENMW_USE_SYSTEM_RECASTNAVIGATION=OFF
+
+    - name: Build
+      run: |
+        cd openmw-source/build
+        make -j$(nproc)
+
+    - name: Run tests
+      run: |
+        cd openmw-source/build
+        ctest --output-on-failure
+
+  build-windows:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup MSVC
+      uses: microsoft/setup-msbuild@v1.1
+
+    - name: Setup vcpkg
+      uses: lukka/run-vcpkg@v11
+      with:
+        vcpkgGitCommitId: 'a42af01b72c28a8e1d7b48107b33e4f286a55ef6'
+
+    - name: Install dependencies
+      run: |
+        vcpkg install `
+          boost-filesystem:x64-windows `
+          bullet3:x64-windows `
+          sdl2:x64-windows `
+          mygui:x64-windows `
+          luajit:x64-windows `
+          sqlite3:x64-windows `
+          openal-soft:x64-windows `
+          yaml-cpp:x64-windows
+
+    - name: Configure CMake
+      run: |
+        cd openmw-source
+        mkdir build
+        cd build
+        cmake .. `
+          -G "Visual Studio 17 2022" `
+          -A x64 `
+          -DCMAKE_TOOLCHAIN_FILE="$env:VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake" `
+          -DBUILD_OPENCS=OFF `
+          -DOPENMW_USE_SYSTEM_YAML_CPP=OFF `
+          -DOPENMW_USE_SYSTEM_RECASTNAVIGATION=OFF
+
+    - name: Build
+      run: |
+        cd openmw-source/build
+        cmake --build . --config Release
+
+    - name: Run tests
+      run: |
+        cd openmw-source/build
+        ctest -C Release --output-on-failure
+
+  build-macos:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install dependencies
+      run: |
+        brew install \
+          boost \
+          bullet \
+          sdl2 \
+          qt@5 \
+          openal-soft \
+          mygui \
+          luajit \
+          sqlite3 \
+          yaml-cpp
+
+    - name: Configure CMake
+      run: |
+        cd openmw-source
+        mkdir -p build
+        cd build
+        cmake .. \
+          -DBUILD_OPENCS=OFF \
+          -DOPENMW_USE_SYSTEM_YAML_CPP=OFF \
+          -DOPENMW_USE_SYSTEM_RECASTNAVIGATION=OFF
+
+    - name: Build
+      run: |
+        cd openmw-source/build
+        make -j$(sysctl -n hw.ncpu)
+
+    - name: Run tests
+      run: |
+        cd openmw-source/build
+        ctest --output-on-failure
+
+  integration-test:
+    needs: [build-linux, build-windows, build-macos]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+
+    - name: Install test dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest pytest-cov
+
+    - name: Run integration tests
+      run: |
+        pytest test_ai_integration.lua --cov=openmw-client/components --cov-report=xml
+
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./coverage.xml
+        flags: openmw-client
+        name: OpenMW Client Coverage
+        fail_ci_if_error: true

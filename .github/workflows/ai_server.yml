@@ -1,0 +1,118 @@
+name: AI Server CI
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'ai-server/**'
+      - '.github/workflows/ai_server.yml'
+  pull_request:
+    branches: [ main, develop ]
+    paths:
+      - 'ai-server/**'
+      - '.github/workflows/ai_server.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.9, "3.10", "3.11"]
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Cache pip packages
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('ai-server/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest pytest-cov flake8 black isort
+        pip install -r ai-server/requirements.txt
+
+    - name: Check code formatting
+      run: |
+        black --check ai-server
+        isort --check-only ai-server
+        flake8 ai-server
+
+    - name: Run tests with coverage
+      run: |
+        pytest ai-server/test_server.py --cov=ai-server/src --cov-report=xml
+
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./coverage.xml
+        flags: ai-server
+        name: AI Server Coverage
+        fail_ci_if_error: true
+
+  build:
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop')
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+
+    - name: Install build dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install build wheel
+
+    - name: Build package
+      run: |
+        cd ai-server
+        python -m build
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: ai-server-dist
+        path: ai-server/dist/
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop')
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
+
+    - name: Login to GitHub Container Registry
+      uses: docker/login-action@v2
+      with:
+        registry: ghcr.io
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v4
+      with:
+        context: ai-server
+        push: true
+        tags: |
+          ghcr.io/${{ github.repository }}/ai-server:${{ github.sha }}
+          ghcr.io/${{ github.repository }}/ai-server:latest
+        cache-from: type=gha
+        cache-to: type=gha,mode=max

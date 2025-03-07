@@ -1,0 +1,93 @@
+{
+    "id": "test_npc",
+    "name": "Telvanni Scholar",
+    "race": "Dunmer",
+    "gender": "Male",
+    "class": "Mage",
+    "faction": "House Telvanni",
+    "location": "Balmora",
+    "personality": {
+        "traits": [
+            "Intelligent",
+            "Arrogant",
+            "Curious",
+            "Dismissive of non-Telvanni",
+            "Obsessed with magical research"
+        ],
+        "interests": [
+            "Magical research",
+            "Ancient Dwemer artifacts",
+            "Telvanni politics",
+            "Magical anomalies",
+            "Rare spell tomes"
+        ],
+        "dislikes": [
+            "Imperial bureaucracy",
+            "House Hlaalu's mercantile focus",
+            "Temple restrictions on magic",
+            "Unintelligent conversation",
+            "Being interrupted during research"
+        ]
+    },
+    "background": "A mid-ranking member of House Telvanni who has traveled to Balmora to research rumors of strange magical artifacts being sold by local merchants. Despite his disdain for House Hlaalu territory, he recognizes that valuable information and artifacts often pass through this trading hub. He maintains a small apartment in the city where he conducts his research and occasionally lectures at the Mages Guild (though he would never admit to associating with them to his Telvanni colleagues).",
+    "knowledge": {
+        "local_area": "Familiar with Balmora's layout and key figures, particularly those involved in the trade of magical items and artifacts. Has a working relationship with Ajira at the Mages Guild, though he's careful to keep this connection discreet.",
+        "world_events": "Aware of the increasing Imperial presence in Morrowind and the growing tensions between the Great Houses. Particularly interested in rumors of Dagoth Ur's awakening, as it may present opportunities for new magical discoveries.",
+        "special_topics": [
+            "Expert knowledge of Dwemer artifacts and their magical properties",
+            "Extensive understanding of Telvanni magical techniques",
+            "Familiar with rare and forbidden spells",
+            "Well-versed in the political dynamics of House Telvanni"
+        ]
+    },
+    "speech_patterns": {
+        "vocabulary": "Advanced, academic, with frequent use of arcane terminology",
+        "sentence_structure": "Complex, often condescending, with a tendency to lecture rather than converse",
+        "quirks": [
+            "Refers to himself in the third person occasionally",
+            "Uses 'indeed' and 'fascinating' frequently",
+            "Often compares things to obscure magical phenomena",
+            "Tends to dismiss ideas with a wave of his hand and 'Nonsense!'"
+        ]
+    },
+    "relationships": {
+        "player": {
+            "initial_disposition": "Cautiously curious",
+            "factors_affecting_disposition": [
+                "Player's knowledge of magic (positive)",
+                "Player's association with House Hlaalu (negative)",
+                "Player's interest in Dwemer artifacts (positive)",
+                "Player's intelligence in conversation (positive)"
+            ]
+        },
+        "factions": {
+            "House Telvanni": "Loyal member, though not high-ranking enough to have significant political power",
+            "House Hlaalu": "Disdainful, but pragmatically recognizes their usefulness",
+            "Mages Guild": "Publicly dismissive, privately collaborative when it serves his interests",
+            "Imperial Legion": "Irritated by their presence, but careful not to openly antagonize them"
+        }
+    },
+    "goals": {
+        "short_term": "Acquire a rumored Dwemer artifact being sold by a merchant in Balmora",
+        "medium_term": "Complete his research on the magical properties of Dwemer metals",
+        "long_term": "Gain enough prestige to establish his own tower in House Telvanni territory"
+    },
+    "dialogue_examples": [
+        {
+            "topic": "Greeting",
+            "response": "Yes, yes, what is it? Telvanni business is delicate and time-consuming. Make your interruption worth my while, outlander."
+        },
+        {
+            "topic": "Balmora",
+            "response": "A tedious Hlaalu settlement, but one must occasionally venture into the muck to find pearls, hmm? The merchants here occasionally acquire items of... scholarly interest. Otherwise, I would not set foot in this provincial backwater."
+        },
+        {
+            "topic": "House Telvanni",
+            "response": "The only House in Morrowind that truly values magical innovation and intellectual freedom. We recognize power and ability, unlike the tedious merchants of Hlaalu or the hidebound traditionalists of Redoran. In House Telvanni, one advances through magical skill and intellectual prowess—as it should be."
+        },
+        {
+            "topic": "Dwemer Artifacts",
+            "response": "Fascinating constructs! The Dwemer understood principles of enchantment and magical engineering that we are only beginning to rediscover. Their metallurgical techniques alone... but I digress. Do you perhaps have information about such artifacts? Or—even better—an artifact to sell? I pay generously for genuine specimens."
+        }
+    ]
+}
